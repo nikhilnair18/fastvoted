@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(bmad:bmm:workflows:workflow-init)",
+      "Skill(bmad:bmm:agents:analyst)",
+      "WebSearch",
+      "WebFetch(domain:www.producthunt.com)",
+      "WebFetch(domain:fastvoted.com.siteindices.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:herman.bearblog.dev)",
+      "WebFetch(domain:www.righto.com)",
+      "Bash(npm install:*)",
+      "Bash(npm run fetch:*)",
+      "Bash(SLACK_WEBHOOK_URL=\"https://hooks.slack.com/services/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\" npm run fetch)"
+    ]
+  }
+}

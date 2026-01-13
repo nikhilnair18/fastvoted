@@ -1,0 +1,21 @@
+{
+  "name": "fastvoted",
+  "version": "1.0.0",
+  "description": "Trending content from HN + Reddit delivered to Slack",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "fetch": "tsx src/index.ts --once"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
